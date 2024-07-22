@@ -1,0 +1,20 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Custom styles */
+.chart-container {
+  @apply bg-gray-800 p-4 rounded-lg;
+}
+
+.chart-title {
+  @apply text-xl text-gray-300;
+}
+
+.toggle-button {
+  @apply bg-gray-700 text-white px-3 py-1 rounded hover:bg-gray-600;
+}
+
+.download-button {
+  @apply mt-4 bg-gray-700 text-white px-3 py-1 rounded hover:bg-gray-600;
+}

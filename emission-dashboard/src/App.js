@@ -1,5 +1,6 @@
 import React from 'react';
 import Dashboard from './Dashboard';
+import './styles/tailwind.css';
 
 function App() {
   return (
